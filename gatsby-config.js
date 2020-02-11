@@ -43,6 +43,19 @@ module.exports = {
         trackingId: "UA-30261260-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Brian Maier Jr. Portfolio`,
+        short_name: `Brian Maier Jr.`,
+        start_url: `/`,
+        background_color: `#1f1e1f`,
+        theme_color: `#f00658`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
